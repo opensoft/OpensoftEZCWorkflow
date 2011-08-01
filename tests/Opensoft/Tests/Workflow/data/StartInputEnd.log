@@ -1,0 +1,15 @@
+MMM DD HH:MM:SS [Debug] [default] [default] Set variable "foo" to "bar" for execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Info] [default] [default] Started execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Activated node #1(Opensoft\Workflow\Nodes\Start) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Started thread #0 (1 sibling(s)) for execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Activated node #3(Opensoft\Workflow\Nodes\Variables\Input) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Executed node #1(Opensoft\Workflow\Nodes\Start) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Info] [default] [default] Suspended execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Set variable "foo" to "bar" for execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Set variable "variable" to "value" for execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Info] [default] [default] Resumed execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Activated node #2(Opensoft\Workflow\Nodes\End) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Executed node #3(Opensoft\Workflow\Nodes\Variables\Input) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Executed node #2(Opensoft\Workflow\Nodes\End) for instance #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Debug] [default] [default] Ended thread #0 for execution #1 of workflow "StartInputEnd" (version 1).
+MMM DD HH:MM:SS [Info] [default] [default] Ended execution #1 of workflow "StartInputEnd" (version 1).

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow name="SetAddSubMulDiv" version="1">
+  <node id="1" type="Start">
+    <outNode id="3"/>
+  </node>
+  <node id="2" type="End"/>
+  <node id="3" type="Variables\SetVar">
+    <variable name="x">
+      <integer>1</integer>
+    </variable>
+    <outNode id="4"/>
+  </node>
+  <node id="4" type="Variables\Add" variable="x" operand="1">
+    <outNode id="5"/>
+  </node>
+  <node id="5" type="Variables\Sub" variable="x" operand="1">
+    <outNode id="6"/>
+  </node>
+  <node id="6" type="Variables\Mul" variable="x" operand="2">
+    <outNode id="7"/>
+  </node>
+  <node id="7" type="Variables\Div" variable="x" operand="2">
+    <outNode id="2"/>
+  </node>
+</workflow>
